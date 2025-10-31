@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hated's Profile</title>
+    <title>JAQLIV Profile</title>
     <style>
         * {
             margin: 0;
@@ -17,7 +17,7 @@
             position: fixed;
             width: 40px;
             height: 40px;
-            background: url('https://media.discordapp.net/attachments/1429563493375279274/1433679609592811591/hand-pointer-hi-7.png?ex=690591af&is=6904402f&hm=b6fa334e1ac0fc72ba85d36b1229aa42060d7fac4619798b88a9fa4b931752ab&=&format=webp&quality=lossless') no-repeat center center;
+            background: url('assets/custom_cursor.png') no-repeat center center;
             background-size: contain;
             pointer-events: none;
             z-index: 9999;
@@ -867,6 +867,8 @@
         </div>
 
 
+
+
         <div id="profile-block">
             <div class="profile-header">
                 <div class="profile-container">
@@ -1022,23 +1024,26 @@
     </div>
 
 
-<div style="display:none;">
-    <iframe
-        id="yt-player"
-        width="0"
-        height="0"
-        src="https://www.youtube.com/embed/9GkVhgIeGJQ?autoplay=1&loop=1&playlist=9GkVhgIeGJQ"
-        frameborder="0"
-        allow="autoplay"
-    ></iframe>
-</div>
+    <audio id="background-music" loop>
+        <source src="assets/background_music.mp3" type="audio/mp3">
+    </audio>
+    <audio id="hacker-music" loop muted>
+        <source src="assets/hacker_music.mp3" type="audio/mp3">
+    </audio>
+    <audio id="rain-music" loop muted>
+        <source src="assets/rain_music.mp3" type="audio/mp3">
+    </audio>
+    <audio id="anime-music" loop muted>
+        <source src="assets/anime_music.mp3" type="audio/mp3">
+    </audio>
+    <audio id="car-music" loop muted>
+        <source src="assets/car_music.mp3" type="audio/mp3">
+    </audio>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
 
     <script src="script.js"></script>
 </body>
-
 </html>
-
-
